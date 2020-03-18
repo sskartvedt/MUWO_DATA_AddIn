@@ -1,0 +1,12 @@
+C:\Users\BF Laptop\Source\Repos\arcgis-pro-sdk-community-samples\Geodatabase\AddDeleteFieldToFromFeatureClass\bin\Debug\AddDeleteFieldToFromFeatureClass.XML
+C:\Users\BF Laptop\Source\Repos\arcgis-pro-sdk-community-samples\Geodatabase\AddDeleteFieldToFromFeatureClass\obj\Debug\AddDeleteFieldToFromFeatureClass.dll
+C:\Users\BF Laptop\Source\Repos\arcgis-pro-sdk-community-samples\Geodatabase\AddDeleteFieldToFromFeatureClass\bin\Debug\AddDeleteFieldToFromFeatureClass.dll
+C:\Users\BF Laptop\Source\Repos\arcgis-pro-sdk-community-samples\Geodatabase\AddDeleteFieldToFromFeatureClass\bin\Debug\AddDeleteFieldToFromFeatureClass.pdb
+C:\Users\BF Laptop\Source\Repos\arcgis-pro-sdk-community-samples\Geodatabase\AddDeleteFieldToFromFeatureClass\obj\Debug\AddDeleteFieldToFromFeatureClass.pdb
+C:\Users\BF Laptop\Source\Repos\arcgis-pro-sdk-community-samples\Geodatabase\AddDeleteFieldToFromFeatureClass\obj\Debug\AddDeleteFieldToFromFeatureClass.csprojAssemblyReference.cache
+C:\Users\BF Laptop\Source\Repos\esri_arcpro_samples\Geodatabase\AddDeleteFieldToFromFeatureClass\bin\Debug\AddDeleteFieldToFromFeatureClass.XML
+C:\Users\BF Laptop\Source\Repos\esri_arcpro_samples\Geodatabase\AddDeleteFieldToFromFeatureClass\bin\Debug\AddDeleteFieldToFromFeatureClass.dll
+C:\Users\BF Laptop\Source\Repos\esri_arcpro_samples\Geodatabase\AddDeleteFieldToFromFeatureClass\bin\Debug\AddDeleteFieldToFromFeatureClass.pdb
+C:\Users\BF Laptop\Source\Repos\esri_arcpro_samples\Geodatabase\AddDeleteFieldToFromFeatureClass\obj\Debug\AddDeleteFieldToFromFeatureClass.csprojAssemblyReference.cache
+C:\Users\BF Laptop\Source\Repos\esri_arcpro_samples\Geodatabase\AddDeleteFieldToFromFeatureClass\obj\Debug\AddDeleteFieldToFromFeatureClass.dll
+C:\Users\BF Laptop\Source\Repos\esri_arcpro_samples\Geodatabase\AddDeleteFieldToFromFeatureClass\obj\Debug\AddDeleteFieldToFromFeatureClass.pdb

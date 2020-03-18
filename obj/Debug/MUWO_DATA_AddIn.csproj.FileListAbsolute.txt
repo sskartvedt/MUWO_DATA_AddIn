@@ -1,0 +1,6 @@
+C:\Users\BF Laptop\Source\Repos\MUWO_DATA_AddIn\obj\Debug\MUWO_DATA_AddIn.csprojAssemblyReference.cache
+C:\Users\BF Laptop\Source\Repos\MUWO_DATA_AddIn\bin\Debug\MUWO_DATA_AddIn.xml
+C:\Users\BF Laptop\Source\Repos\MUWO_DATA_AddIn\bin\Debug\MUWO_DATA_AddIn.dll
+C:\Users\BF Laptop\Source\Repos\MUWO_DATA_AddIn\bin\Debug\MUWO_DATA_AddIn.pdb
+C:\Users\BF Laptop\Source\Repos\MUWO_DATA_AddIn\obj\Debug\MUWO_DATA_AddIn.dll
+C:\Users\BF Laptop\Source\Repos\MUWO_DATA_AddIn\obj\Debug\MUWO_DATA_AddIn.pdb

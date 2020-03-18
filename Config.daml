@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+   Copyright 2019 Esri
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<ArcGIS defaultAssembly="MUWO_DATA_AddIn.dll" defaultNamespace="MUWO_DATA_AddIn" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{ebcf4b1a-5683-4f03-93e0-d7d43396f00b}" version="1.0" desktopVersion="2.0.0">
+    <Name>MUWO_DATA_AddIn</Name>
+    <Description>MUWO_DATA_AddIn description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team, arcgisprosdk@esri.com</Author>
+    <Company>esri, http://www.esri.com</Company>
+    <Date>7/8/2016 2:35:20 PM, 2016</Date>
+    <Subject>Geodatabase</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="MUWO_DATA_AddIn_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <tab id="MUWO_DATA_AddIn_Tab1" caption="MUWO_Edits">
+          <group refID="MUWO_DATA_AddIn_Group1"/>
+          <group refID="MUWO_DATA_AddIn_Group2"/>
+        </tab>
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="MUWO_DATA_AddIn_Group1" caption="FC Schema" keytip="G1" appearsOnAddInTab="false">
+          <!-- host controls within groups -->
+          <button refID="MUWO_DATA_AddIn_AddAField" size="large" />
+          <button refID="MUWO_DATA_AddIn_DeleteTheField" size="large" />
+        </group>
+        <group id="MUWO_DATA_AddIn_Group2" caption="Add Excel" keytip="G2" appearsOnAddInTab="false">
+          <!-- host controls within groups -->
+          <button refID="MUWO_DATA_AddIn_AddExcel" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="MUWO_DATA_AddIn_AddAField" caption="Add new fields" className="AddAField" loadOnClick="true" smallImage="Images\tree16.png" largeImage="Images\tree32.png" keytip="B1" condition="esri_mapping_singleFeatureLayerSelectedCondition">
+          <tooltip heading="Add Field">
+            Adds fields to the selected feature class
+            field1
+            field2
+            <disabledText /></tooltip>
+        </button>
+        <button id="MUWO_DATA_AddIn_DeleteTheField" caption="Delete the fields" className="DeleteTheField" loadOnClick="true" smallImage="Images\UFO16.png" largeImage="Images\UFO32.png" keytip="B2" condition="esri_mapping_singleFeatureLayerSelectedCondition">
+          <tooltip heading="Delete Fields"><disabledText /></tooltip>
+        </button>
+        <button id="MUWO_DATA_AddIn_AddExcel" caption="Add Excel" className="AddExcel" loadOnClick="true" smallImage="Images\excel16.png" largeImage="Images\excel32.png" keytip="B3" condition="esri_mapping_singleFeatureLayerSelectedCondition">
+          <tooltip heading="Delete Fields">
+            <disabledText />
+          </tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>
